@@ -14,21 +14,17 @@ body {
   z-index: 3;
   position: fixed;
   width: 100%;
+  color: green;
 }
 
 .intro {
-  background-color: #03045eff;
   color: #90e0efff;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 75vh;
-}
-
-a {
-  color: #90e0efff;
+  height: 100vh;
 }
 
 a:hover {
@@ -37,10 +33,14 @@ a:hover {
 }
 
 .about {
-  height: 50vh;
+  background-color: #03045eff;
 }
 
 .about p {
   border: 5px double;
-  width: 50vw;
+  color: #90e0efff;
+}
+
+.about .photo {
+  border: 5px solid white;
 }

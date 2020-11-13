@@ -1,5 +1,6 @@
 @import 'color'
 @import 'palette'
+
 *
     margin: 0
     padding: 0
@@ -10,28 +11,29 @@ body
     z-index: 3
     position: fixed
     width:100%
+    color: green
+
     
 .intro
-    background-color: $navy-blue
     color: $sky-blue-crayola
     text-align: center
     display: flex
     justify-content: center
     flex-direction: column
     align-items: center
-    height: 75vh
-
-
-a
-    color: $sky-blue-crayola
+    height: 100vh
 
 a:hover 
     text-shadow: $shadowbluevar2
     border-bottom: 2px double #32a1ce
 
 .about
-    height: 50vh
+    background-color: $navy-blue
 
 .about p
     border:5px double
-    width: 50vw
+    color: $sky-blue-crayola
+    
+.about .photo
+    border: 5px solid white
+
