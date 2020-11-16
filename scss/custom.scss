@@ -1,0 +1,19 @@
+@import "../bootstrap/scss/bootstrap";
+@import 'palette';
+
+.btn-primary {
+    background-color: $navy-blue;
+    border-radius: 30px;
+}
+
+.btn-primary:hover {
+    background-color: chartreuse;
+}
+
+.navbar-dark {
+    background-color: black;
+}
+
+ul.nav li.active a {
+    color: cyan !important;
+}
