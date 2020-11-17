@@ -45,7 +45,7 @@
                 <div class="col-md-5">
                     <h2>A propos de moi</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vero reiciendis praesentium cum ut, veritatis alias laboriosam ullam hic, commodi eaque at nam nulla earum officiis doloribus cupiditate dolorum sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, omnis veritatis ratione earum maiores inventore quos, iste, vero perspiciatis perferendis commodi accusantium doloremque assumenda deleniti ex? Blanditiis rerum repellendus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugit provident perferendis tempore assumenda qui illo hic illum perspiciatis eaque, cumque non accusantium explicabo doloremque, sit reiciendis fuga nostrum? Voluptatem!</p>
-                    <button type="button" class="btn btn-primary">Télécharger mon CV</button>
+                    <button type="button" class="btn btn-outline-primary">Télécharger mon CV</button>
                 </div>
                 <div class="col-md-7">
                     <div class="photo">photo</div>
@@ -71,40 +71,42 @@
     </section>
     <section>
         <div class="container">
-            <div class="row vh-100">
-                <div class="col-md-6">
-                    <h1>Mes compétences</h1>
-                    <div class="my-auto">
-                        <div class="skills">
-                            <h2>HTML</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
+            <div class="row vh-100 d-flex justify-content-center">
+                <div class="align-self-lg-center">
+                    <div class="col-md-12">
+                        <h1>Mes compétences</h1>
+                        
+                            <div class="skills">
+                                <h2>HTML</h2>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="skills">
-                            <h2>CSS</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="skills">
+                                <h2>CSS</h2>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="skills">
-                            <h2>JavaScript</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="skills">
+                                <h2>JavaScript</h2>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="skills">
-                            <h2>Bootstrap</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="skills">
+                                <h2>Bootstrap</h2>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="skills">
-                            <h2>Wordpress</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="skills">
+                                <h2>Wordpress</h2>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

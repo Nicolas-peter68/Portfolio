@@ -9898,13 +9898,18 @@ h3 {
 }
 /* SCSS HEX */
 /* SCSS Gradient */
-.btn-primary {
-  background-color: #03045eff;
+/* Variable Color text, shadow, border top by Zack * */
+.btn-outline-primary {
   border-radius: 30px;
+  box-shadow: 0px 0px 30px cyan;
+  color: cyan;
+  text-shadow: 0px 0px 30px cyan;
+  background-color: transparent;
 }
 
-.btn-primary:hover {
-  background-color: chartreuse;
+.btn-outline-primary:hover {
+  background-color: transparent;
+  box-shadow: 0px 0px 40px cyan;
 }
 
 .navbar-dark {

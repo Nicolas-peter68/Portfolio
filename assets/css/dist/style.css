@@ -1,13 +1,17 @@
 /* Variable Color text, shadow, border top by Zack * */
 /* SCSS HEX */
 /* SCSS Gradient */
+@font-face {
+  font-family: neon;
+  src: url(../../fonts/NeonGlow-8VLz.ttf);
+}
+body {
+  background-color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background: black;
 }
 
 .navbar {
@@ -24,15 +28,17 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  font-family: neon, fantasy;
+  text-shadow: 0 0 10px #1fb8e7, 0 0 20px #1fb8e7, 0 0 40px #1fb8e7;
+}
+
+.intro h1 {
+  font-size: 75px;
 }
 
 a:hover {
   text-shadow: 0 0 10px #40dee9, 0 0 20px #40dee9, 0 0 40px #40dee9;
   border-bottom: 2px double #32a1ce;
-}
-
-.about {
-  background-color: #03045eff;
 }
 
 .about p {

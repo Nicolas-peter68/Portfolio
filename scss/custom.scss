@@ -1,13 +1,23 @@
 @import "../bootstrap/scss/bootstrap";
 @import 'palette';
+@import '../assets/css/color.sass';
 
-.btn-primary {
-    background-color: $navy-blue;
+$shadowcyan:0px 0px 30px cyan;
+$shadowcyanvar:0px 0px 40px cyan;
+
+
+.btn-outline-primary {
     border-radius: 30px;
+    box-shadow: $shadowcyan;
+    color: cyan;
+    text-shadow: $shadowcyan;
+    background-color: transparent;
 }
 
-.btn-primary:hover {
-    background-color: chartreuse;
+.btn-outline-primary:hover {
+    background-color: transparent;
+    box-shadow: $shadowcyanvar;
+    
 }
 
 .navbar-dark {
