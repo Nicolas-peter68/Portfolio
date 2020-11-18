@@ -1,5 +1,7 @@
 @import 'color'
 @import 'palette'
+@mixin no-focus()
+    outline: none
 @font-face
     font-family: neon
     src: url(../../fonts/NeonGlow-8VLz.ttf)
@@ -28,13 +30,204 @@ body
 .intro h1
     font-size: 75px
 
+.intro h2
+    color: $sky-blue-crayola
+
 a:hover
     text-shadow: $shadowbluevar2
     border-bottom: 2px double #32a1ce
 
 .about p
     border: 5px double
-    color: $sky-blue-crayola
+    color: cyan
+
+h2
+    font-size: 50px
+    color: cyan
 
 .about .photo
     border: 5px solid white
+
+.btn-neon
+    color: $sky-blue-crayola
+    position: relative
+    background-color: black
+    border: none
+    padding: 10px
+    letter-spacing: 2px
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005)
+    overflow: hidden
+
+.btn-neon:focus
+    @include no-focus()
+    
+
+.btn-neon:hover
+    background-color: $sky-blue-crayola
+    color: black
+    box-shadow: 0 0 5px $sky-blue-crayola,0 0 25px $sky-blue-crayola,0 0 50px $sky-blue-crayola,0 0 100px $sky-blue-crayola
+
+.btn-neon span
+    position: absolute
+    display: block
+
+.btn-neon span:nth-child(1)
+    top: 0
+    left: -100%
+    width: 100%
+    height: 2px
+    background: linear-gradient(90deg, transparent,$sky-blue-crayola)
+    animation: anim1 1s linear infinite
+
+@keyframes anim1
+    0%
+        left:-100%
+    50%,100%
+        left:100%
+
+.btn-neon span:nth-child(2)
+    top: -100%
+    right: 0
+    width: 2px
+    height: 100%
+    background: linear-gradient(180deg, transparent,$sky-blue-crayola)
+    animation: anim2 1s linear infinite
+    animation-delay:0.25s
+
+@keyframes anim2
+    0%
+        top:-100%
+    50%,100%
+        top:100%
+
+.btn-neon span:nth-child(3)
+    bottom: 0
+    right: -100%
+    width: 100%
+    height: 2px
+    background: linear-gradient(270deg, transparent,$sky-blue-crayola)
+    animation: anim3 1s linear infinite
+    animation-delay:0.5s
+
+@keyframes anim3
+    0%
+        right:-100%
+    50%,100%
+        right:100%
+
+.btn-neon span:nth-child(4)
+    bottom: -100%
+    left: 0
+    width: 2px
+    height: 100%
+    background: linear-gradient(360deg, transparent,$sky-blue-crayola)
+    animation: anim4 1s linear infinite
+    animation-delay:0.75s
+
+@keyframes anim4
+    0%
+        bottom:-100%
+    50%,100%
+        bottom:100%
+
+.btn-neon span:nth-child(5)
+    bottom: 0
+    right: -100%
+    width: 100%
+    height: 2px
+    background: linear-gradient(-90deg, transparent,$sky-blue-crayola)
+    animation: anim5 1s linear infinite
+
+@keyframes anim5
+    0%
+        right:-100%
+    50%,100%
+        right:100%
+
+.btn-neon span:nth-child(6)
+    bottom: -100%
+    left: 0
+    width: 2px
+    height: 100%
+    background: linear-gradient(-180deg, transparent,$sky-blue-crayola)
+    animation: anim6 1s linear infinite
+    animation-delay:0.25s
+
+@keyframes anim6
+    0%
+        bottom:-100%
+    50%,100%
+        bottom:100%
+
+.btn-neon span:nth-child(7)
+    top: 0
+    left: -100%
+    width: 100%
+    height: 2px
+    background: linear-gradient(-270deg, transparent,$sky-blue-crayola)
+    animation: anim7 1s linear infinite
+    animation-delay:0.5s
+
+@keyframes anim7
+    0%
+        left:-100%
+    50%,100%
+        left:100%
+
+.btn-neon span:nth-child(8)
+    top: -100%
+    right: 0
+    width: 2px
+    height: 100%
+    background: linear-gradient(-360deg, transparent,$sky-blue-crayola)
+    animation: anim8 1s linear infinite
+    animation-delay:0.75s
+
+@keyframes anim8
+    0%
+        top:-100%
+    50%,100%
+        top:100%
+
+.btn-form
+    color: $sky-blue-crayola
+    position: relative
+    background-color: black
+    border: none
+    padding: 10px
+    letter-spacing: 2px
+    overflow: hidden
+
+.btn-form span
+    position: absolute
+    display: block
+
+.btn-form span:nth-child(1)
+    top: 0
+    left: -100%
+    width: 100%
+    height: 100%
+    background: linear-gradient(90deg, transparent,$sky-blue-crayola)
+    animation: anim1 2s linear infinite
+
+.btn-form span:nth-child(2)
+    top: 0
+    right: -100%
+    width: 100%
+    height: 100%
+    background: linear-gradient(270deg, transparent,$sky-blue-crayola)
+    animation: anim3 2s linear infinite
+    animation-delay:1s
+          
+.btn-form:focus
+    @include no-focus()
+
+.projets p
+    color: blue
+    border: 1px solid $navy-blue
+
+.skills h1
+    color: $navy-blue
+
+label
+    color: cyan

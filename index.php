@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/dist/custom.css">
     <link rel="stylesheet" href="assets/css/dist/style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -44,8 +44,17 @@
             <div class="row align-items-center">
                 <div class="col-md-5">
                     <h2>A propos de moi</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vero reiciendis praesentium cum ut, veritatis alias laboriosam ullam hic, commodi eaque at nam nulla earum officiis doloribus cupiditate dolorum sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, omnis veritatis ratione earum maiores inventore quos, iste, vero perspiciatis perferendis commodi accusantium doloremque assumenda deleniti ex? Blanditiis rerum repellendus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugit provident perferendis tempore assumenda qui illo hic illum perspiciatis eaque, cumque non accusantium explicabo doloremque, sit reiciendis fuga nostrum? Voluptatem!</p>
-                    <button type="button" class="btn btn-outline-primary">Télécharger mon CV</button>
+                    <p>Passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer en complément de BTS systèmes numériques...</p>
+                    <button type="button" class="btn-neon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Télécharger mon CV</button>
                 </div>
                 <div class="col-md-7">
                     <div class="photo">photo</div>
@@ -53,13 +62,12 @@
             </div>
         </div>
     </section>
-
     <section class="projets">
         <div class="container">
             <h2>Mes projets</h2>
-            <div class="row">
-                <p class="col-md-3 col-12">Projet1</p>
-                <p class="col-md-3 col-12">Projet1</p>
+            <div class="row vh-75">
+                <p class="col-md-3 col-12">Projet Mark</p>
+                <p class="col-md-3 col-12">Projet Italian food</p>
                 <p class="col-md-3 col-12">Projet1</p>
                 <p class="col-md-3 col-12">Projet1</p>
                 <p class="col-md-3 col-12">Projet1</p>
@@ -69,46 +77,43 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="skills">
         <div class="container">
             <div class="row vh-100 d-flex justify-content-center">
-                <div class="align-self-lg-center">
                     <div class="col-md-12">
                         <h1>Mes compétences</h1>
-                        
-                            <div class="skills">
-                                <h2>HTML</h2>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
-                                </div>
+                        <div class="skills">
+                            <h2>HTML</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
                             </div>
-                            <div class="skills">
-                                <h2>CSS</h2>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                        </div>
+                        <div class="skills">
+                            <h2>CSS</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <div class="skills">
-                                <h2>JavaScript</h2>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                        </div>
+                        <div class="skills">
+                            <h2>JavaScript</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <div class="skills">
-                                <h2>Bootstrap</h2>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                        </div>
+                        <div class="skills">
+                            <h2>Bootstrap</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <div class="skills">
-                                <h2>Wordpress</h2>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                        </div>
+                        <div class="skills">
+                            <h2>Wordpress</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                        
+                        </div>
                     </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -151,7 +156,11 @@
                             <label for="Message">Message</label>
                             <textarea class="form-control" id="" cols="30" rows="10"></textarea>
                         </div>
-                        <button class="btn btn-primary" type="submit">Envoyer</button>
+                        <button class="btn-form" type="submit">
+                            <span></span>
+                            <span></span>
+                            Envoyer
+                        </button>
                     </form>
                     <script>
                         // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -176,12 +185,20 @@
                 </div>
                 <div class="col-lg-4 ml-auto">
                     <h3>Mes coordonnées</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus quisquam, libero, ipsum praesentium, nihil fuga architecto cumque voluptate tempora commodi. Voluptas nobis quas excepturi beatae ea deleniti cum sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatibus eveniet fuga quo unde suscipit, voluptas enim quam, optio recusandae assumenda ad mollitia amet aliquam quae laborum magnam soluta. Illo.</p>
+                    <ul>
+                        <li>nicolas.peter67@yahoo.com</li>
+                        <li>+33668999385</li>
+                    </ul>
                 </div>
             </div>
-
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>github</p>
+            <p>LikedIn</p>
+        </div>
+    </footer>
 </body>
 <!--https://preview.colorlib.com/theme/orbit/#contact-section-->
 
