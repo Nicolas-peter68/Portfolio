@@ -40,11 +40,6 @@ body {
   color: #90e0efff;
 }
 
-a:hover {
-  text-shadow: 0 0 10px #40dee9, 0 0 20px #40dee9, 0 0 40px #40dee9;
-  border-bottom: 2px double #32a1ce;
-}
-
 .about p {
   border: 5px double;
   color: cyan;
@@ -89,144 +84,21 @@ h2 {
   top: 0;
   left: -100%;
   width: 100%;
-  height: 2px;
+  height: 100%;
   background: linear-gradient(90deg, transparent, #90e0efff);
-  animation: anim1 1s linear infinite;
+  animation: anim1 3s linear infinite;
 }
 
-@keyframes anim1 {
-  0% {
-    left: -100%;
-  }
-  50%, 100% {
-    left: 100%;
-  }
-}
 .btn-neon span:nth-child(2) {
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #90e0efff);
-  animation: anim2 1s linear infinite;
-  animation-delay: 0.25s;
-}
-
-@keyframes anim2 {
-  0% {
-    top: -100%;
-  }
-  50%, 100% {
-    top: 100%;
-  }
-}
-.btn-neon span:nth-child(3) {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #90e0efff);
-  animation: anim3 1s linear infinite;
-  animation-delay: 0.5s;
-}
-
-@keyframes anim3 {
-  0% {
-    right: -100%;
-  }
-  50%, 100% {
-    right: 100%;
-  }
-}
-.btn-neon span:nth-child(4) {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #90e0efff);
-  animation: anim4 1s linear infinite;
-  animation-delay: 0.75s;
-}
-
-@keyframes anim4 {
-  0% {
-    bottom: -100%;
-  }
-  50%, 100% {
-    bottom: 100%;
-  }
-}
-.btn-neon span:nth-child(5) {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(-90deg, transparent, #90e0efff);
-  animation: anim5 1s linear infinite;
-}
-
-@keyframes anim5 {
-  0% {
-    right: -100%;
-  }
-  50%, 100% {
-    right: 100%;
-  }
-}
-.btn-neon span:nth-child(6) {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(-180deg, transparent, #90e0efff);
-  animation: anim6 1s linear infinite;
-  animation-delay: 0.25s;
-}
-
-@keyframes anim6 {
-  0% {
-    bottom: -100%;
-  }
-  50%, 100% {
-    bottom: 100%;
-  }
-}
-.btn-neon span:nth-child(7) {
   top: 0;
-  left: -100%;
+  right: -100%;
   width: 100%;
-  height: 2px;
-  background: linear-gradient(-270deg, transparent, #90e0efff);
-  animation: anim7 1s linear infinite;
-  animation-delay: 0.5s;
-}
-
-@keyframes anim7 {
-  0% {
-    left: -100%;
-  }
-  50%, 100% {
-    left: 100%;
-  }
-}
-.btn-neon span:nth-child(8) {
-  top: -100%;
-  right: 0;
-  width: 2px;
   height: 100%;
-  background: linear-gradient(-360deg, transparent, #90e0efff);
-  animation: anim8 1s linear infinite;
-  animation-delay: 0.75s;
+  background: linear-gradient(270deg, transparent, #90e0efff);
+  animation: anim2 3s linear infinite;
+  animation-delay: 1.5s;
 }
 
-@keyframes anim8 {
-  0% {
-    top: -100%;
-  }
-  50%, 100% {
-    top: 100%;
-  }
-}
 .btn-form {
   color: #90e0efff;
   position: relative;
@@ -235,6 +107,12 @@ h2 {
   padding: 10px;
   letter-spacing: 2px;
   overflow: hidden;
+}
+
+.btn-form:hover {
+  background-color: #90e0efff;
+  color: black;
+  box-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 100px #90e0efff;
 }
 
 .btn-form span {
@@ -248,7 +126,7 @@ h2 {
   width: 100%;
   height: 100%;
   background: linear-gradient(90deg, transparent, #90e0efff);
-  animation: anim1 2s linear infinite;
+  animation: anim1 3s linear infinite;
 }
 
 .btn-form span:nth-child(2) {
@@ -257,10 +135,26 @@ h2 {
   width: 100%;
   height: 100%;
   background: linear-gradient(270deg, transparent, #90e0efff);
-  animation: anim3 2s linear infinite;
-  animation-delay: 1s;
+  animation: anim2 3s linear infinite;
+  animation-delay: 1.5s;
 }
 
+@keyframes anim1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+@keyframes anim2 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
 .btn-form:focus {
   outline: none;
 }
@@ -275,5 +169,27 @@ h2 {
 }
 
 label {
+  color: cyan;
+}
+
+.contact {
+  color: cyan;
+}
+
+.contact i {
+  text-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 100px #90e0efff;
+}
+
+.contact li {
+  list-style: none;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+
+footer i {
+  text-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 100px #90e0efff;
   color: cyan;
 }

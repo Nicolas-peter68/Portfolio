@@ -9901,15 +9901,14 @@ h3 {
 /* Variable Color text, shadow, border top by Zack * */
 .btn-outline-primary {
   border-radius: 30px;
-  box-shadow: 0px 0px 30px cyan;
+  box-shadow: 0px 0px 100px cyan, 0px 0px 20px cyan, 0px 0px 100px cyan;
   color: cyan;
-  text-shadow: 0px 0px 30px cyan;
+  text-shadow: 0px 0px 100px cyan, 0px 0px 20px cyan, 0px 0px 100px cyan;
   background-color: transparent;
 }
 
 .btn-outline-primary:hover {
   background-color: transparent;
-  box-shadow: 0px 0px 40px cyan;
 }
 
 .navbar-dark {
@@ -9918,4 +9917,28 @@ h3 {
 
 ul.nav li.active a {
   color: cyan !important;
+}
+
+ul.nav li.active a:hover {
+  text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff !important;
+}
+
+.form-control {
+  background-color: black;
+  border: #007bff 1px double;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 20px cyan, 0px 0px 20px cyan, 0px 0px 20px cyan;
+  background-color: black;
+  color: #007bff !important;
+}
+
+.progress {
+  background-color: white;
+  box-shadow: 0px 0px 100px cyan, 0px 0px 20px cyan, 0px 0px 100px cyan !important;
+}
+
+.progress-bar {
+  background-color: cyan;
 }

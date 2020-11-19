@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/dist/custom.css">
     <link rel="stylesheet" href="assets/css/dist/style.css">
+    <script src="https://kit.fontawesome.com/0676c44351.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
 
@@ -19,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#">A propos de moi</a>
@@ -44,7 +45,7 @@
             <div class="row align-items-center">
                 <div class="col-md-5">
                     <h2>A propos de moi</h2>
-                    <p>Passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer en complément de BTS systèmes numériques...</p>
+                    <p>Passionné par les nouvelles technologies, titulaire d'un BTS systèmes numériques option informatique et réseaux j'ai souhaité faire une formation de web designer.</p>
                     <button type="button" class="btn-neon">
                         <span></span>
                         <span></span>
@@ -80,40 +81,39 @@
     <section class="skills">
         <div class="container">
             <div class="row vh-100 d-flex justify-content-center">
-                    <div class="col-md-12">
-                        <h1>Mes compétences</h1>
-                        <div class="skills">
-                            <h2>HTML</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
-                            </div>
-                        </div>
-                        <div class="skills">
-                            <h2>CSS</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="skills">
-                            <h2>JavaScript</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="skills">
-                            <h2>Bootstrap</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="skills">
-                            <h2>Wordpress</h2>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                <div class="col-md-12">
+                    <h1>Mes compétences</h1>
+                    <div class="skills">
+                        <h2>HTML</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
                         </div>
                     </div>
-                
+                    <div class="skills">
+                        <h2>CSS</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h2>JavaScript</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h2>Bootstrap</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h2>Wordpress</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -132,14 +132,14 @@
                                 <label for="validationCustom01">Prénom</label>
                                 <input type="text" class="form-control" id="validationCustom01" value="" required>
                                 <div class="valid-feedback">
-                                    Looks good!
+                                    C'est bien
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom02">Nom</label>
                                 <input type="text" class="form-control" id="validationCustom02" value="" required>
                                 <div class="valid-feedback">
-                                    Looks good!
+                                    C'est bien
                                 </div>
                             </div>
                         </div>
@@ -153,8 +153,10 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <label for="Message">Message</label>
-                            <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+                            <div class="col-md-12 mb-3">
+                                <label for="Message">Message</label>
+                                <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+                            </div>
                         </div>
                         <button class="btn-form" type="submit">
                             <span></span>
@@ -175,6 +177,8 @@
                                         if (form.checkValidity() === false) {
                                             event.preventDefault();
                                             event.stopPropagation();
+                                        } else {
+
                                         }
                                         form.classList.add('was-validated');
                                     }, false);
@@ -186,8 +190,8 @@
                 <div class="col-lg-4 ml-auto">
                     <h3>Mes coordonnées</h3>
                     <ul>
-                        <li>nicolas.peter67@yahoo.com</li>
-                        <li>+33668999385</li>
+                        <li class="mb-3"><span class="mt-1 mr-2"><i class="far fa-envelope"></i></span><a href="mailto:nicolas.peter67@yahoo.com">nicolas.peter67@yahoo.com</a></li>
+                        <li class="mb-3"><span class="mt-1 mr-2"><i class="fas fa-phone"></i></span><a href="tel:+33668999385">+33 6 68 99 93 85</a></li>
                     </ul>
                 </div>
             </div>
@@ -195,8 +199,14 @@
     </section>
     <footer>
         <div class="container">
-            <p>github</p>
-            <p>LikedIn</p>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul>
+                        <li><span class="mr-2"><i class="fab fa-linkedin-in"></i></span></li>
+                        <li><span class="mr-2"><i class="fab fa-github"></i></span></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

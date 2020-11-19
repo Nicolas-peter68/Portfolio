@@ -2,9 +2,13 @@
 @import 'palette';
 @import '../assets/css/color.sass';
 
-$shadowcyan:0px 0px 30px cyan;
-$shadowcyanvar:0px 0px 40px cyan;
-
+$shadowcyan:0px 0px 100px cyan,
+0px 0px 20px cyan,
+0px 0px 100px cyan;
+$shadowcyanvar1:0px 0px 20px cyan,
+0px 0px 20px cyan,
+0px 0px 20px cyan;
+$bluevar:#007bff;
 
 .btn-outline-primary {
     border-radius: 30px;
@@ -16,8 +20,6 @@ $shadowcyanvar:0px 0px 40px cyan;
 
 .btn-outline-primary:hover {
     background-color: transparent;
-    box-shadow: $shadowcyanvar;
-    
 }
 
 .navbar-dark {
@@ -26,4 +28,28 @@ $shadowcyanvar:0px 0px 40px cyan;
 
 ul.nav li.active a {
     color: cyan !important;
+}
+
+ul.nav li.active a:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff !important;
+}
+
+.form-control {
+    background-color: black;
+    border: $bluevar 1px double;
+}
+
+.form-control:focus {
+    box-shadow: $shadowcyanvar1;
+    background-color: black;
+    color: $bluevar !important;
+}
+
+.progress {
+    background-color: white;
+    box-shadow: $shadowcyan !important;
+}
+
+.progress-bar {
+    background-color: cyan;
 }
