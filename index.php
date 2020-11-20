@@ -29,6 +29,9 @@
                     <a class="nav-link" href="#">Mes projets</a>
                 </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="#">Mes compétences</a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Mon parcours</a>
                 </li>
                 <li class="nav-item active">
@@ -47,12 +50,6 @@
                     <h2>A propos de moi</h2>
                     <p>Passionné par les nouvelles technologies, titulaire d'un BTS systèmes numériques option informatique et réseaux j'ai souhaité faire une formation de web designer.</p>
                     <button type="button" class="btn-neon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
                         <span></span>
                         <span></span>
                         Télécharger mon CV</button>
@@ -117,27 +114,36 @@
             </div>
         </div>
     </section>
+    <section class="parcours">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Mon parcours</h1>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center" id="mail-alert">
                     <h1>Contactez moi</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-7">
-                    <form class="needs-validation" novalidate>
+                    <form class="needs-validation" id="formulaire" novalidate>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom01">Prénom</label>
-                                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                                <input name="prenom" type="text" class="form-control" id="validationCustom01" value="" required>
                                 <div class="valid-feedback">
                                     C'est bien
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom02">Nom</label>
-                                <input type="text" class="form-control" id="validationCustom02" value="" required>
+                                <input name="nom" type="text" class="form-control" id="validationCustom02" value="" required>
                                 <div class="valid-feedback">
                                     C'est bien
                                 </div>
@@ -146,7 +152,7 @@
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="validationCustom03">Email</label>
-                                <input type="email" class="form-control" id="validationCustom03" required>
+                                <input name="email" type="email" class="form-control" id="validationCustom03" required>
                                 <div class="invalid-feedback">
                                     Merci de saisir une adresse mail valide.
                                 </div>
@@ -155,7 +161,7 @@
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="Message">Message</label>
-                                <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+                                <textarea name="message" class="form-control" id="" cols="30" rows="10"></textarea>
                             </div>
                         </div>
                         <button class="btn-form" type="submit">
@@ -165,6 +171,12 @@
                         </button>
                     </form>
                     <script>
+                        function message() {
+                            let envoi = document.createElement("div");
+                            envoi.innerText = "Votre mail a bien été envoyé";
+                            envoi.classList.add("alert", "alert-success");
+                            document.getElementById('mail-alert').appendChild(envoi);
+                        }
                         // Example starter JavaScript for disabling form submissions if there are invalid fields
                         (function() {
                             'use strict';
@@ -178,7 +190,17 @@
                                             event.preventDefault();
                                             event.stopPropagation();
                                         } else {
-
+                                            event.preventDefault();
+                                            event.stopPropagation();
+                                            const formData = new FormData(form);
+                                            fetch('assets/php/contact.php', {
+                                                    method: "post",
+                                                    body: formData
+                                                })
+                                                .then(response => {
+                                                    form.reset();
+                                                    message();
+                                                });
                                         }
                                         form.classList.add('was-validated');
                                     }, false);
