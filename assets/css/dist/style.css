@@ -50,6 +50,10 @@ h2 {
   color: cyan;
 }
 
+a:focus {
+  outline: none;
+}
+
 .about .photo {
   border: 5px solid white;
 }

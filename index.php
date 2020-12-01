@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/dist/custom.css">
     <link rel="stylesheet" href="assets/css/dist/style.css">
+    <link rel="stylesheet" href="assets/css/dist/time-line.css">
     <script src="https://kit.fontawesome.com/0676c44351.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
-
 <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
@@ -23,19 +23,19 @@
                     <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">A propos de moi</a>
+                    <a class="nav-link" href="#about">A propos de moi</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Mes projets</a>
+                    <a class="nav-link" href="#projets">Mes projets</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Mes compétences</a>
+                    <a class="nav-link" href="#skills">Mes compétences</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Mon parcours</a>
+                    <a class="nav-link" href="#parcours">Mon parcours</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Me contacter</a>
+                    <a class="nav-link" href="#me-contacter">Me contacter</a>
                 </li>
             </ul>
         </div>
@@ -43,7 +43,7 @@
     <?php
     require_once("header.html");
     ?>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5">
@@ -60,11 +60,11 @@
             </div>
         </div>
     </section>
-    <section class="projets">
+    <section class="projets" id="projets">
         <div class="container">
             <h2>Mes projets</h2>
             <div class="row vh-75">
-                <p class="col-md-3 col-12">Projet Mark</p>
+                <p class="col-md-3 col-12"><img src="assets/img/Mark.png" class="rounded mx-auto d-block" alt="Mark"></p>
                 <p class="col-md-3 col-12">Projet Italian food</p>
                 <p class="col-md-3 col-12">Projet1</p>
                 <p class="col-md-3 col-12">Projet1</p>
@@ -75,10 +75,10 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
-            <div class="row vh-100 d-flex justify-content-center">
-                <div class="col-md-12">
+            <div class="row my-5 align-items-center">
+                <div class="col-12 col-md-12">
                     <h1>Mes compétences</h1>
                     <div class="skills">
                         <h2>HTML</h2>
@@ -114,16 +114,108 @@
             </div>
         </div>
     </section>
-    <section class="parcours">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Mon parcours</h1>
-                </div>
+    <section class="parcours" id="parcours">
+    <div class="container-fluid blue-bg">
+    <div class="container">
+        <h2 class="pb-3 pt-2">Mon parcours</h2>
+        <!--first section-->
+        <div class="row align-items-center how-it-works">
+            <div class="col-2 text-center bottom">
+                <div class="circle">2020</div>
+            </div>
+            <div class="col-6">
+                <h5>Formation de Web designer</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
             </div>
         </div>
+        <!--path between 1-2-->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner left-bottom"></div>
+            </div>
+        </div>
+        <!--second section-->
+        <div class="row align-items-center justify-content-end how-it-works">
+            <div class="col-6 text-right">
+                <h5>Using Bootstrap</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            </div>
+            <div class="col-2 text-center full">
+                <div class="circle">2019</div>
+            </div>
+        </div>
+        <!--path between 2-3-->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner top-left"></div>
+            </div>
+        </div>
+        <!--third section-->
+        <div class="row align-items-center how-it-works">
+            <div class="col-2 full1 text-center">
+                <div class="circle">2018</div>
+            </div>
+            <div class="col-6">
+                <h5>Now with Pug and Sass</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            </div>
+        </div>
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner left-bottom"></div>
+            </div>
+        </div>  
+        <div class="row align-items-center justify-content-end how-it-works">
+            <div class="col-6 text-right">
+                <h5>ligne 4</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            </div>
+            <div class="col-2 text-center full">
+                <div class="circle">2017</div>
+            </div>
+        </div>
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner top-left"></div>
+            </div>
+        </div>
+        <div class="row align-items-center how-it-works">
+            <div class="col-2 text-center top">
+                <div class="circle">2016</div>
+            </div>
+            <div class="col-6">
+                <h5>Now with Pug and Sass</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            </div>
+        </div>
+    </div>
+</div>
     </section>
-    <section class="contact">
+    <section class="contact" id="me-contacter">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center" id="mail-alert">
@@ -134,21 +226,22 @@
                 <div class="col-lg-7">
                     <form class="needs-validation" id="formulaire" novalidate>
                         <div class="form-row">
-                            <div class="col-md-6 mb-3">
-                                <label for="validationCustom01">Prénom</label>
-                                <input name="prenom" type="text" class="form-control" id="validationCustom01" value="" required>
-                                <div class="valid-feedback">
-                                    C'est bien
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-12 mb-3">
                                 <label for="validationCustom02">Nom</label>
                                 <input name="nom" type="text" class="form-control" id="validationCustom02" value="" required>
                                 <div class="valid-feedback">
                                     C'est bien
                                 </div>
                             </div>
+                            <div class="col-md-12 mb-3">
+                                <label for="validationCustom02">Sujet</label>
+                                <input name="objet" type="text" class="form-control" id="validationCustom02" value="" required>
+                                <div class="valid-feedback">
+                                    C'est bien
+                                </div>
+                            </div>
                         </div>
+
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="validationCustom03">Email</label>
@@ -176,6 +269,9 @@
                             envoi.innerText = "Votre mail a bien été envoyé";
                             envoi.classList.add("alert", "alert-success");
                             document.getElementById('mail-alert').appendChild(envoi);
+                            setTimeout(() => {
+                                document.getElementById('mail-alert').removeChild(envoi)
+                            }, 5000);
                         }
                         // Example starter JavaScript for disabling form submissions if there are invalid fields
                         (function() {

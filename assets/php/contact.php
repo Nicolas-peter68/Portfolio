@@ -11,8 +11,8 @@ $transport = (new Swift_SmtpTransport('smtp.mailtrap.io', 2525))
 $mailer = new Swift_Mailer($transport);
 
 // Create a message
-$message = (new Swift_Message('Une peronne vous a contacté depuis votre formulaire'))
-  ->setFrom([$_POST['email'] => $_POST['prenom'].' '.$_POST['nom']])
+$message = (new Swift_Message('Via formulaire : '.$_POST['objet']))
+  ->setFrom([$_POST['email'] =>$_POST['nom']])
   ->setTo(['nicolas.peter67@yahoo.com' => 'Nicolas Peter'])
   ->setBody(htmlspecialchars($_POST['message']))
   ;
