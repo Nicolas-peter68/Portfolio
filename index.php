@@ -48,11 +48,12 @@
             <div class="row align-items-center">
                 <div class="col-md-5">
                     <h2>A propos de moi</h2>
-                    <p>Passionné par les nouvelles technologies, titulaire d'un BTS systèmes numériques option informatique et réseaux j'ai souhaité faire une formation de web designer.</p>
+                    <p>J'ai commencé par bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
+                    <a href="assets/misc/CV_Nicolas_Peter.pdf" target="_blank">
                     <button type="button" class="btn-neon">
                         <span></span>
                         <span></span>
-                        Télécharger mon CV</button>
+                        Télécharger mon CV</button></a>
                 </div>
                 <div class="col-md-7">
                     <div class="photo">photo</div>
@@ -123,9 +124,9 @@
             <div class="col-2 text-center bottom">
                 <div class="circle">2020</div>
             </div>
-            <div class="col-6">
+            <div class="col-6 ml-5">
                 <h5>Formation de Web designer</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+                <p>TItre professionel en cours d'acquisition</p>
             </div>
         </div>
         <!--path between 1-2-->
@@ -142,12 +143,12 @@
         </div>
         <!--second section-->
         <div class="row align-items-center justify-content-end how-it-works">
-            <div class="col-6 text-right">
-                <h5>Using Bootstrap</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            <div class="col-6 mr-5 text-right">
+                <h5>Diplôme Passe Numérique</h5>
+                <p>Remise à niveaux des compétences dans le domaine de l'informatique</p>
             </div>
             <div class="col-2 text-center full">
-                <div class="circle">2019</div>
+                <div class="circle">2019/2018</div>
             </div>
         </div>
         <!--path between 2-3-->
@@ -167,9 +168,9 @@
             <div class="col-2 full1 text-center">
                 <div class="circle">2018</div>
             </div>
-            <div class="col-6">
-                <h5>Now with Pug and Sass</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            <div class="col-6 ml-5">
+                <h5>Téléconseiller web</h5>
+                <p>Traitement des appels entrants, gestions des noms de domaine et des herbergements, résolution d'incidents et Vente additionnelle.</p>
             </div>
         </div>
         <div class="row timeline">
@@ -184,12 +185,12 @@
             </div>
         </div>  
         <div class="row align-items-center justify-content-end how-it-works">
-            <div class="col-6 text-right">
-                <h5>ligne 4</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            <div class="col-6 mr-5 text-right">
+                <h5>BTS systèmes numériques option informatique et réseaux</h5>
+                <p>Diplôme obtenu au lycée Louis Armand à Mulhouse</p>
             </div>
             <div class="col-2 text-center full">
-                <div class="circle">2017</div>
+                <div class="circle">2015/2017</div>
             </div>
         </div>
         <div class="row timeline">
@@ -205,11 +206,11 @@
         </div>
         <div class="row align-items-center how-it-works">
             <div class="col-2 text-center top">
-                <div class="circle">2016</div>
+                <div class="circle">2012/2015</div>
             </div>
-            <div class="col-6">
-                <h5>Now with Pug and Sass</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+            <div class="col-6 ml-5">
+                <h5>Baccalauréat professionnel Electrotechnique</h5>
+                <p>Diplôme obtenu au lycée Jean-Jacques Henner à Altkirch</p>
             </div>
         </div>
     </div>
@@ -241,7 +242,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="validationCustom03">Email</label>

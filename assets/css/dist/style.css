@@ -5,6 +5,10 @@
   font-family: neon;
   src: url(../../fonts/NeonGlow-8VLz.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
 }
