@@ -46,12 +46,12 @@ body {
 
 .about p {
   border: 5px double;
-  color: cyan;
+  color: #90e0efff;
 }
 
 h2 {
   font-size: 50px;
-  color: cyan;
+  color: #90e0efff;
 }
 
 a:focus {
@@ -69,7 +69,6 @@ a:focus {
   border: none;
   padding: 10px;
   letter-spacing: 2px;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   overflow: hidden;
 }
 
@@ -80,7 +79,7 @@ a:focus {
 .btn-neon:hover {
   background-color: #90e0efff;
   color: black;
-  box-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 100px #90e0efff;
+  box-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 50px #90e0efff;
 }
 
 .btn-neon span {
@@ -120,7 +119,7 @@ a:focus {
 .btn-form:hover {
   background-color: #90e0efff;
   color: black;
-  box-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 100px #90e0efff;
+  box-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 50px #90e0efff;
 }
 
 .btn-form span {
@@ -177,15 +176,15 @@ a:focus {
 }
 
 label {
-  color: cyan;
+  color: #90e0efff;
 }
 
 .contact {
-  color: cyan;
+  color: #90e0efff;
 }
 
 .contact i {
-  text-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 100px #90e0efff;
+  text-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 50px #90e0efff;
 }
 
 .contact li {
@@ -198,6 +197,6 @@ footer li {
 }
 
 footer i {
-  text-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 100px #90e0efff;
-  color: cyan;
+  text-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 50px #90e0efff;
+  color: #90e0efff;
 }

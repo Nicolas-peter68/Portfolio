@@ -1,6 +1,6 @@
 @import 'color'
 @import 'palette'
-$shadowlightblue:0 0 5px $sky-blue-crayola,0 0 25px $sky-blue-crayola,0 0 50px $sky-blue-crayola,0 0 100px $sky-blue-crayola
+$shadowlightblue:0 0 5px $sky-blue-crayola,0 0 25px $sky-blue-crayola,0 0 50px $sky-blue-crayola,0 0 50px $sky-blue-crayola
 @mixin no-focus()
     outline: none
 
@@ -44,11 +44,11 @@ body
 
 .about p
     border: 5px double
-    color: cyan
+    color: $sky-blue-crayola
 
 h2
     font-size: 50px
-    color: cyan
+    color: $sky-blue-crayola
 a:focus
     @include no-focus()
     
@@ -62,7 +62,6 @@ a:focus
     border: none
     padding: 10px
     letter-spacing: 2px
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005)
     overflow: hidden
 
 .btn-neon:focus
@@ -148,10 +147,10 @@ a:focus
     color: $navy-blue
 
 label
-    color: cyan
+    color: $sky-blue-crayola
 
 .contact
-    color: cyan
+    color: $sky-blue-crayola
 
 .contact i
     text-shadow: $shadowlightblue
@@ -165,4 +164,4 @@ footer li
 
 footer i
     text-shadow: $shadowlightblue
-    color: cyan
+    color: $sky-blue-crayola

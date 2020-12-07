@@ -23,7 +23,7 @@
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid cyan;
+  border-right: 3px solid cyan;
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {

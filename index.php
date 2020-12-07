@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/dist/custom.css">
     <link rel="stylesheet" href="assets/css/dist/style.css">
-    <link rel="stylesheet" href="assets/css/dist/time-line.css">
+    <link rel="stylesheet" href="assets/css/dist/time-line2.css">
     <script src="https://kit.fontawesome.com/0676c44351.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
+
 <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
@@ -45,15 +46,15 @@
     ?>
     <section class="about" id="about">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center my-5">
                 <div class="col-md-5">
                     <h2>A propos de moi</h2>
                     <p>J'ai commencé par bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
                     <a href="assets/misc/CV_Nicolas_Peter.pdf" target="_blank">
-                    <button type="button" class="btn-neon">
-                        <span></span>
-                        <span></span>
-                        Télécharger mon CV</button></a>
+                        <button type="button" class="btn-neon">
+                            <span></span>
+                            <span></span>
+                            Télécharger mon CV</button></a>
                 </div>
                 <div class="col-md-7">
                     <div class="photo">photo</div>
@@ -116,105 +117,41 @@
         </div>
     </section>
     <section class="parcours" id="parcours">
-    <div class="container-fluid blue-bg">
-    <div class="container">
-        <h2 class="pb-3 pt-2">Mon parcours</h2>
-        <!--first section-->
-        <div class="row align-items-center how-it-works">
-            <div class="col-2 text-center bottom">
-                <div class="circle">2020</div>
-            </div>
-            <div class="col-6 ml-5">
-                <h5>Formation de Web designer</h5>
-                <p>TItre professionel en cours d'acquisition</p>
-            </div>
-        </div>
-        <!--path between 1-2-->
-        <div class="row timeline">
-            <div class="col-2">
-                <div class="corner top-right"></div>
-            </div>
-            <div class="col-8">
-                <hr/>
-            </div>
-            <div class="col-2">
-                <div class="corner left-bottom"></div>
-            </div>
-        </div>
-        <!--second section-->
-        <div class="row align-items-center justify-content-end how-it-works">
-            <div class="col-6 mr-5 text-right">
-                <h5>Diplôme Passe Numérique</h5>
-                <p>Remise à niveaux des compétences dans le domaine de l'informatique</p>
-            </div>
-            <div class="col-2 text-center full">
-                <div class="circle">2019/2018</div>
-            </div>
-        </div>
-        <!--path between 2-3-->
-        <div class="row timeline">
-            <div class="col-2">
-                <div class="corner right-bottom"></div>
-            </div>
-            <div class="col-8">
-                <hr/>
-            </div>
-            <div class="col-2">
-                <div class="corner top-left"></div>
-            </div>
-        </div>
-        <!--third section-->
-        <div class="row align-items-center how-it-works">
-            <div class="col-2 full1 text-center">
-                <div class="circle">2018</div>
-            </div>
-            <div class="col-6 ml-5">
-                <h5>Téléconseiller web</h5>
-                <p>Traitement des appels entrants, gestions des noms de domaine et des herbergements, résolution d'incidents et Vente additionnelle.</p>
-            </div>
-        </div>
-        <div class="row timeline">
-            <div class="col-2">
-                <div class="corner top-right"></div>
-            </div>
-            <div class="col-8">
-                <hr/>
-            </div>
-            <div class="col-2">
-                <div class="corner left-bottom"></div>
-            </div>
-        </div>  
-        <div class="row align-items-center justify-content-end how-it-works">
-            <div class="col-6 mr-5 text-right">
-                <h5>BTS systèmes numériques option informatique et réseaux</h5>
-                <p>Diplôme obtenu au lycée Louis Armand à Mulhouse</p>
-            </div>
-            <div class="col-2 text-center full">
-                <div class="circle">2015/2017</div>
-            </div>
-        </div>
-        <div class="row timeline">
-            <div class="col-2">
-                <div class="corner right-bottom"></div>
-            </div>
-            <div class="col-8">
-                <hr/>
-            </div>
-            <div class="col-2">
-                <div class="corner top-left"></div>
-            </div>
-        </div>
-        <div class="row align-items-center how-it-works">
-            <div class="col-2 text-center top">
-                <div class="circle">2012/2015</div>
-            </div>
-            <div class="col-6 ml-5">
-                <h5>Baccalauréat professionnel Electrotechnique</h5>
-                <p>Diplôme obtenu au lycée Jean-Jacques Henner à Altkirch</p>
+    <div class="container py-5">
+    <h2 class="mb-5">Mon parcours</h2>
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <!-- Timeline -->
+                <ul class="timeline">
+                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h2 mb-0">Formation développeur web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2020</span>
+                        <p class="text-small text-white mt-2 font-weight-light">Titre professionel en cours d'acquisition chez Access Code School</p>
+                    </li>
+                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h2 mb-0">Diplôme Passe Numérique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i> 2018/2019</span>
+                        <p class="text-small text-white mt-2 font-weight-light">Remise à niveaux des compétences dans le domaine de l'informatique.</p>
+                    </li>
+                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h2 mb-0">Téléconseiller web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2018</span>
+                        <p class="text-small text-white mt-2 font-weight-light">Traitement des appels entrants, gestions des noms de domaine et des herbergements, résolution d'incidents et vente additionnelle.</p>
+                    </li>
+                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h2 mb-0">BTS systèmes numériques option informatique et réseaux</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2015/2017</span>
+                        <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Louis Armand à Mulhouse</p>
+                    </li>
+                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h2 mb-0">Baccalauréat professionnel Electrotechnique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2012/2015</span>
+                        <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Jean-Jacques Henner à Altkirch</p>
+                    </li>
+                </ul><!-- End -->
             </div>
         </div>
     </div>
-</div>
     </section>
     <section class="contact" id="me-contacter">
         <div class="container">
@@ -329,5 +266,5 @@
     </footer>
 </body>
 <!--https://preview.colorlib.com/theme/orbit/#contact-section-->
-
+<!-- https://codepen.io/internette/pen/KqyxjE -->
 </html>

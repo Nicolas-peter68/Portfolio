@@ -13,7 +13,7 @@ $bluevar:#007bff;
 .btn-outline-primary {
     border-radius: 30px;
     box-shadow: $shadowcyan;
-    color: cyan;
+    color: $sky-blue-crayola;
     text-shadow: $shadowcyan;
     background-color: transparent;
 }
@@ -27,7 +27,7 @@ $bluevar:#007bff;
 }
 
 ul.nav li.active a {
-    color: cyan !important;
+    color: $sky-blue-crayola !important;
 }
 
 ul.nav li.active a:hover {
@@ -51,5 +51,9 @@ ul.nav li.active a:hover {
 }
 
 .progress-bar {
-    background-color: cyan;
+    background-color: $sky-blue-crayola;
+}
+
+.bg-dark{
+background-color: black !important;
 }
