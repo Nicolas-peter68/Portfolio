@@ -47,8 +47,8 @@
     <section class="about" id="about">
         <div class="container">
             <div class="row align-items-center my-5">
-                <div class="col-md-5">
-                    <h2>A propos de moi</h2>
+                <div class="col-md-5 mb-4">
+                    <h1 class="mb-4">A propos de moi</h1>
                     <p>J'ai commencé par bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
                     <a href="assets/misc/CV_Nicolas_Peter.pdf" target="_blank">
                         <button type="button" class="btn-neon">
@@ -56,24 +56,17 @@
                             <span></span>
                             Télécharger mon CV</button></a>
                 </div>
-                <div class="col-md-7">
-                    <div class="photo">photo</div>
+                <div class="col-md-6 offset-md-1 pl-4">
+                    <img src="assets/img/photo.jpg" alt="" srcset="">
                 </div>
             </div>
         </div>
     </section>
     <section class="projets" id="projets">
         <div class="container">
-            <h2>Mes projets</h2>
+            <h1>Mes projets</h1>
             <div class="row vh-75">
                 <p class="col-md-3 col-12"><img src="assets/img/Mark.png" class="rounded mx-auto d-block" alt="Mark"></p>
-                <p class="col-md-3 col-12">Projet Italian food</p>
-                <p class="col-md-3 col-12">Projet1</p>
-                <p class="col-md-3 col-12">Projet1</p>
-                <p class="col-md-3 col-12">Projet1</p>
-                <p class="col-md-3 col-12">Projet1</p>
-                <p class="col-md-3 col-12">Projet1</p>
-                <p class="col-md-3 col-12">Projet1</p>
             </div>
         </div>
     </section>
@@ -84,32 +77,24 @@
                     <h1>Mes compétences</h1>
                     <div class="skills">
                         <h2>HTML</h2>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        <div class="progress mb-4">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">70%</div>
                         </div>
-                    </div>
-                    <div class="skills">
                         <h2>CSS</h2>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress mb-4">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
                         </div>
-                    </div>
-                    <div class="skills">
                         <h2>JavaScript</h2>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress mb-4">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">50%</div>
                         </div>
-                    </div>
-                    <div class="skills">
                         <h2>Bootstrap</h2>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress mb-4">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
                         </div>
-                    </div>
-                    <div class="skills">
-                        <h2>Wordpress</h2>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <h2>Photoshop</h2>
+                        <div class="progress mb-4">
+                            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">40%</div>
                         </div>
                     </div>
                 </div>
@@ -117,41 +102,41 @@
         </div>
     </section>
     <section class="parcours" id="parcours">
-    <div class="container py-5">
-    <h2 class="mb-5">Mon parcours</h2>
-        <div class="row">
-            <div class="col-lg-10 mx-auto">
-                <!-- Timeline -->
-                <ul class="timeline">
-                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h2 mb-0">Formation développeur web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2020</span>
-                        <p class="text-small text-white mt-2 font-weight-light">Titre professionel en cours d'acquisition chez Access Code School</p>
-                    </li>
-                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h2 mb-0">Diplôme Passe Numérique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i> 2018/2019</span>
-                        <p class="text-small text-white mt-2 font-weight-light">Remise à niveaux des compétences dans le domaine de l'informatique.</p>
-                    </li>
-                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h2 mb-0">Téléconseiller web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2018</span>
-                        <p class="text-small text-white mt-2 font-weight-light">Traitement des appels entrants, gestions des noms de domaine et des herbergements, résolution d'incidents et vente additionnelle.</p>
-                    </li>
-                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h2 mb-0">BTS systèmes numériques option informatique et réseaux</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2015/2017</span>
-                        <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Louis Armand à Mulhouse</p>
-                    </li>
-                    <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h2 mb-0">Baccalauréat professionnel Electrotechnique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2012/2015</span>
-                        <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Jean-Jacques Henner à Altkirch</p>
-                    </li>
-                </ul><!-- End -->
+        <div class="container py-5">
+            <h1 class="mb-5">Mon parcours</h1>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <!-- Timeline -->
+                    <ul class="timeline">
+                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h2 mb-0">Formation développeur web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2020</span>
+                            <p class="text-small text-white mt-2 font-weight-light">Titre professionel en cours d'acquisition chez Access Code School</p>
+                        </li>
+                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h2 mb-0">Diplôme Passe Numérique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i> 2018/2019</span>
+                            <p class="text-small text-white mt-2 font-weight-light">Remise à niveaux des compétences dans le domaine de l'informatique.</p>
+                        </li>
+                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h2 mb-0">Téléconseiller web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2018</span>
+                            <p class="text-small text-white mt-2 font-weight-light">Traitement des appels entrants, gestions des noms de domaine et des herbergements, résolution d'incidents et vente additionnelle.</p>
+                        </li>
+                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h2 mb-0">BTS systèmes numériques option informatique et réseaux</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2015/2017</span>
+                            <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Louis Armand à Mulhouse</p>
+                        </li>
+                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h2 mb-0">Baccalauréat professionnel Electrotechnique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2012/2015</span>
+                            <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Jean-Jacques Henner à Altkirch</p>
+                        </li>
+                    </ul><!-- End -->
+                </div>
             </div>
         </div>
-    </div>
     </section>
     <section class="contact" id="me-contacter">
         <div class="container">
@@ -257,14 +242,16 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <ul>
-                        <li><span class="mr-2"><i class="fab fa-linkedin-in"></i></span></li>
-                        <li><span class="mr-2"><i class="fab fa-github"></i></span></li>
+                        <li><span class="mr-2"><a href="https://www.linkedin.com/in/nicolas-peter68/" target="_blank"><i class="fab fa-linkedin-in"></i></span></a></li>
+                        <li><span class="mr-2"><a href="https://github.com/Nicolas-peter68" target="_blank"><i class="fab fa-github"></i></span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="assets/js/app.js"></script>
 </body>
 <!--https://preview.colorlib.com/theme/orbit/#contact-section-->
 <!-- https://codepen.io/internette/pen/KqyxjE -->
+
 </html>

@@ -47,12 +47,15 @@ ul.nav li.active a:hover {
 
 .progress {
     background-color: white;
-    box-shadow: $shadowcyan !important;
+    box-shadow: -2px 0 8px 0 rgba(white, 0.6);
+    height: 30px;
 }
 
 .progress-bar {
-    background-color: $sky-blue-crayola;
+    background: linear-gradient(to bottom, #26e3e3 50%, #0e1cdd);
+    color: black;
 }
+
 
 .bg-dark{
 background-color: black !important;
