@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="scss/dist/custom.css">
     <link rel="stylesheet" href="assets/css/dist/style.css">
     <link rel="stylesheet" href="assets/css/dist/time-line2.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/0676c44351.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
@@ -49,7 +50,7 @@
             <div class="row align-items-center my-5">
                 <div class="col-md-5 mb-4">
                     <h1 class="mb-4">A propos de moi</h1>
-                    <p>J'ai commencé par bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
+                    <p data-aos="fade-right">J'ai commencé par bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
                     <a href="assets/misc/CV_Nicolas_Peter.pdf" target="_blank">
                         <button type="button" class="btn-neon">
                             <span></span>
@@ -57,7 +58,7 @@
                             Télécharger mon CV</button></a>
                 </div>
                 <div class="col-md-6 offset-md-1 pl-4">
-                    <img src="assets/img/photo.jpg" alt="" srcset="">
+                    <img data-aos="fade-down" src="assets/img/photo.jpg" alt="" srcset="">
                 </div>
             </div>
         </div>
@@ -67,6 +68,7 @@
             <h1>Mes projets</h1>
             <div class="row vh-75">
                 <p class="col-md-3 col-12"><img src="assets/img/Mark.png" class="rounded mx-auto d-block" alt="Mark"></p>
+                <p class="col-md-3 col-12"><img src="assets/img/Olive.png" class="mx-auto" width="300px" alt=""></p>
             </div>
         </div>
     </section>
@@ -77,23 +79,23 @@
                     <h1>Mes compétences</h1>
                     <div class="skills">
                         <h2>HTML</h2>
-                        <div class="progress mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        <div class="progress mb-4" data-aos="fade-right" >
+                            <div class="progress-bar" role="progressbar" style="width: 70%;"  aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">70%</div>
                         </div>
                         <h2>CSS</h2>
-                        <div class="progress mb-4">
+                        <div class="progress mb-4" data-aos="fade-right" data-aos-delay="200">
                             <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
                         </div>
                         <h2>JavaScript</h2>
-                        <div class="progress mb-4">
+                        <div class="progress mb-4" data-aos="fade-right" data-aos-delay="400">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">50%</div>
                         </div>
                         <h2>Bootstrap</h2>
-                        <div class="progress mb-4">
+                        <div class="progress mb-4" data-aos="fade-right" data-aos-delay="600">
                             <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
                         </div>
                         <h2>Photoshop</h2>
-                        <div class="progress mb-4">
+                        <div class="progress mb-4" data-aos="fade-right" data-aos-delay="800">
                             <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">40%</div>
                         </div>
                     </div>
@@ -110,28 +112,38 @@
                     <ul class="timeline">
                         <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
+                            <div data-aos="fade-left">
                             <h2 class="h2 mb-0">Formation développeur web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2020</span>
                             <p class="text-small text-white mt-2 font-weight-light">Titre professionel en cours d'acquisition chez Access Code School</p>
+                            </div>
                         </li>
                         <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                            <div data-aos="fade-left">
                             <div class="timeline-arrow"></div>
                             <h2 class="h2 mb-0">Diplôme Passe Numérique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i> 2018/2019</span>
                             <p class="text-small text-white mt-2 font-weight-light">Remise à niveaux des compétences dans le domaine de l'informatique.</p>
+                        </div>
                         </li>
                         <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
+                            <div data-aos="fade-left">
                             <h2 class="h2 mb-0">Téléconseiller web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2018</span>
                             <p class="text-small text-white mt-2 font-weight-light">Traitement des appels entrants, gestions des noms de domaine et des herbergements, résolution d'incidents et vente additionnelle.</p>
+                        </div>
                         </li>
                         <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
+                            <div data-aos="fade-left">
                             <h2 class="h2 mb-0">BTS systèmes numériques option informatique et réseaux</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2015/2017</span>
                             <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Louis Armand à Mulhouse</p>
+                        </div>
                         </li>
                         <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
+                            <div data-aos="fade-left">
                             <h2 class="h2 mb-0">Baccalauréat professionnel Electrotechnique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2012/2015</span>
                             <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Jean-Jacques Henner à Altkirch</p>
+                        </div>
                         </li>
                     </ul><!-- End -->
                 </div>
@@ -145,7 +157,7 @@
                     <h1>Contactez moi</h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-lg-7">
                     <form class="needs-validation" id="formulaire" novalidate>
                         <div class="form-row">
@@ -195,7 +207,6 @@
                                 document.getElementById('mail-alert').removeChild(envoi)
                             }, 5000);
                         }
-                        // Example starter JavaScript for disabling form submissions if there are invalid fields
                         (function() {
                             'use strict';
                             window.addEventListener('load', function() {
@@ -250,6 +261,10 @@
         </div>
     </footer>
     <script src="assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 <!--https://preview.colorlib.com/theme/orbit/#contact-section-->
 <!-- https://codepen.io/internette/pen/KqyxjE -->
