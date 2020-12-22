@@ -36,3 +36,15 @@ function message() {
         });
     }, false);
 })();
+
+//menu
+
+let liens = document.querySelectorAll(".nav-link");
+let bouton = document.querySelector("button");
+liens.forEach(lien => {
+    lien.addEventListener("click",function () {
+        if (window.innerWidth < 992) {
+            bouton.click();
+        }
+    })
+});

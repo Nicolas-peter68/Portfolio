@@ -23,7 +23,8 @@ ul.timeline:before {
 
 li.timeline-item {
   margin: 20px 0;
-  border: 2px solid white;
+  border: 2px solid #90e0efff;
+  box-shadow: 0 0 5px #90e0efff, 0 0 10px #90e0efff, 0 0 10px #90e0efff, 0 0 10px #90e0efff;
 }
 
 /* Timeline item arrow */

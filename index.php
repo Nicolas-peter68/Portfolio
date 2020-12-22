@@ -51,8 +51,8 @@ url('assets/img/brick-wall1.png')">
     </header>
     <section class="about" id="about">
         <div class="container">
-            <h1>À propos de moi </h1>
-            <div class="row align-items-center my-5">   
+            <h1>À propos de moi</h1>
+            <div class="row align-items-center mb-5">   
                 <div class="col-md-5 mb-4">
                     <p class="mb-4">J'ai commencé par un bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
                     <a href="assets/misc/CV_Nicolas_Peter.pdf" target="_blank">
@@ -71,15 +71,16 @@ url('assets/img/brick-wall1.png')">
         <div class="container">
             <h1 class="my-4">Mes projets</h1>
             <div class="row mb-4 h-100">
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/Mark.png" alt="Mark"><span class="affiche mb-4">Intégration de maquette avec Bootstrap</span></div>
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/multiplication.png" alt=""><span class="affiche">Tables de multiplication en PHP</span></div>
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/italian.png" alt=""><span class="affiche">Intégration de maquette sans Bootstrap</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/Mark.png" alt="Mark"><span class="affiche mb-4">Intégration de maquette avec Bootstrap</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/multiplication.png" alt=""><span class="affiche">Tables de multiplication en PHP</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/italian.png" alt=""><span class="affiche">Intégration de maquette sans Bootstrap</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/crud.png" alt=""><span class="affiche">Mise en place d'un système de manipulation de base de données</span></div>
             </div>
         </div>
     </section>
     <section class="skills my-5" id="skills">
         <div class="container">
-            <div class="row my-5 align-items-center">
+            <div class="row mb-5 align-items-center">
                 <div class="col-12 col-md-12">
                     <h1>Mes compétences</h1>
                     <div class="skills">
@@ -109,41 +110,41 @@ url('assets/img/brick-wall1.png')">
         </div>
     </section>
     <section class="parcours" id="parcours">
-        <div class="container py-5">
+        <div class="container pb-5">
             <h1 class="mb-5">Mon parcours</h1>
             <div class="row">
                 <div class="col-lg-10 mx-auto">
                     <!-- Timeline -->
                     <ul class="timeline">
-                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <li class="timeline-item bg-dark rounded ml-3 p-4">
                             <div class="timeline-arrow"></div>
                             <div>
                                 <h2 class="h2 mb-0">Formation développeur web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2020</span>
                                 <p class="text-small text-white mt-2 font-weight-light">Titre professionel en cours d'acquisition chez Access Code School</p>
                             </div>
                         </li>
-                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <li class="timeline-item bg-dark rounded ml-3 p-4">
                             <div>
                                 <div class="timeline-arrow"></div>
                                 <h2 class="h2 mb-0">Diplôme Passe Numérique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i> 2018/2019</span>
                                 <p class="text-small text-white mt-2 font-weight-light">Remise à niveaux des compétences dans le domaine de l'informatique.</p>
                             </div>
                         </li>
-                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <li class="timeline-item bg-dark rounded ml-3 p-4">
                             <div class="timeline-arrow"></div>
                             <div>
                                 <h2 class="h2 mb-0">Téléconseiller web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2018</span>
                                 <p class="text-small text-white mt-2 font-weight-light">Traitement des appels entrants, gestions des noms de domaine et des herbergements, résolution d'incidents et vente additionnelle.</p>
                             </div>
                         </li>
-                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <li class="timeline-item bg-dark rounded ml-3 p-4">
                             <div class="timeline-arrow"></div>
                             <div>
                                 <h2 class="h2 mb-0">BTS systèmes numériques option informatique et réseaux</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2015/2017</span>
                                 <p class="text-small text-white mt-2 font-weight-light">Diplôme obtenu au lycée Louis Armand à Mulhouse</p>
                             </div>
                         </li>
-                        <li class="timeline-item bg-dark rounded ml-3 p-4 shadow">
+                        <li class="timeline-item bg-dark rounded ml-3 p-4">
                             <div class="timeline-arrow"></div>
                             <div>
                                 <h2 class="h2 mb-0">Baccalauréat professionnel Electrotechnique</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2012/2015</span>

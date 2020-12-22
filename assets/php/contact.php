@@ -7,7 +7,7 @@ $headers =
     'MIME-Version: 1.0'."\r\n".
     'Content-type: text/html; charset=UTF-8'."\r\n".
     'From: '. $_POST['nom'].'<'. $_POST['email'].'>'."\r\n".
-    'Reply-To: '. 'nicolas.peter67@yahoo.com'."\r\n".
+    'Reply-To: '. $_POST['email']."\r\n".
     'X-Mailer: '. 'PHP/' . phpversion()
 ;
 

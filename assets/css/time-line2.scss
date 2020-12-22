@@ -1,11 +1,13 @@
 /* Timeline holder */
 @import 'color';
 @import 'palette';
+$shadowlightblue:0 0 5px $sky-blue-crayola,0 0 10px $sky-blue-crayola,0 0 10px $sky-blue-crayola,0 0 10px $sky-blue-crayola;
 ul.timeline {
     list-style-type: none;
     position: relative;
     padding-left: 1.5rem;
 }
+
 
  /* Timeline vertical line */
 ul.timeline:before {
@@ -22,7 +24,8 @@ ul.timeline:before {
 
 li.timeline-item {
     margin: 20px 0;
-    border: 2px solid white;
+    border: 2px solid $sky-blue-crayola;
+    box-shadow: $shadowlightblue;
 }
 
 /* Timeline item arrow */

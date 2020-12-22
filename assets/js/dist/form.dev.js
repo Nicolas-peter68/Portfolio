@@ -39,4 +39,15 @@ function message() {
       }, false);
     });
   }, false);
-})();
+})(); //menu
+
+
+var liens = document.querySelectorAll(".nav-link");
+var bouton = document.querySelector("button");
+liens.forEach(function (lien) {
+  lien.addEventListener("click", function () {
+    if (window.innerWidth < 992) {
+      bouton.click();
+    }
+  });
+});
