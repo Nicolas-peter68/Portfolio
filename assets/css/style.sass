@@ -59,7 +59,7 @@ h2
     color: $sky-blue-crayola
 a:focus
     @include no-focus()
-    
+
 .about .photo
     border: 5px solid white
 
@@ -74,10 +74,9 @@ a:focus
 
 .btn-neon:focus
     @include no-focus()
-    
+
 .btn-neon:hover
     @include hover-glow()
-
 
 .btn-neon span
     position: absolute
@@ -98,7 +97,7 @@ a:focus
     height: 100%
     background: linear-gradient(270deg, transparent,$sky-blue-crayola)
     animation: anim2 3s linear infinite
-    animation-delay:1.5s
+    animation-delay: 1.5s
 
 .btn-form
     color: $sky-blue-crayola
@@ -131,24 +130,52 @@ a:focus
     height: 100%
     background: linear-gradient(270deg, transparent,$sky-blue-crayola)
     animation: anim2 3s linear infinite
-    animation-delay:1.5s
+    animation-delay: 1.5s
 @keyframes anim1
     0%
-        left:-100%
+        left: -100%
     50%,100%
-        left:100%
+        left: 100%
 
 @keyframes anim2
     0%
-        right:-100%
+        right: -100%
     50%,100%
-        right:100%
-          
+        right: 100%
+
 .btn-form:focus
     @include no-focus()
 
 .skills h1
     color: $sky-blue-crayola
+
+.projets img
+    cursor: pointer
+
+.bulle .affiche
+    visibility: hidden
+    color: black
+    text-align: center
+    background-color: white
+    border-radius: 6px
+    position: absolute
+    padding: 10px
+    z-index: 1
+    top: 105%
+    right: 50
+
+.bulle .affiche::after
+    content: ""
+    position: absolute
+    bottom: 100%
+    left: 50%
+    margin-left: -5px
+    border-width: 5px
+    border-style: solid
+    border-color: transparent transparent white transparent
+
+.bulle:hover .affiche
+    visibility: visible
 
 label
     color: $sky-blue-crayola

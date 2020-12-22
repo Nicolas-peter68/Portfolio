@@ -180,6 +180,38 @@ a:focus {
   color: #90e0efff;
 }
 
+.projets img {
+  cursor: pointer;
+}
+
+.bulle .affiche {
+  visibility: hidden;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 6px;
+  position: absolute;
+  padding: 10px;
+  z-index: 1;
+  top: 105%;
+  right: 50;
+}
+
+.bulle .affiche::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.bulle:hover .affiche {
+  visibility: visible;
+}
+
 label {
   color: #90e0efff;
 }
