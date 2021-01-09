@@ -211,6 +211,10 @@ a:focus {
   visibility: visible;
 }
 
+.logo {
+  height: 100px;
+}
+
 label {
   color: #90e0efff;
 }

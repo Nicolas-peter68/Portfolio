@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="scss/dist/custom.css">
     <link rel="stylesheet" href="assets/css/dist/style.css">
     <link rel="stylesheet" href="assets/css/dist/time-line2.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/0676c44351.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
@@ -46,7 +47,7 @@
 url('assets/img/brick-wall1.png')">
         <div class="intro">
             <h1>Nicolas Peter</h1>
-            <h2>Web designer junior</h2>
+            <h2>Web designer</h2>
         </div>
     </header>
     <section class="about" id="about">
@@ -61,9 +62,9 @@ url('assets/img/brick-wall1.png')">
                             <span></span>
                             Télécharger mon CV</button></a>
                 </div>
-                <div class="col-md-6 offset-md-1 pl-4">
+                <!-- <div class="col-md-6 offset-md-1 pl-4">
                     <img src="assets/img/photo.jpg" alt="" srcset="">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -75,6 +76,7 @@ url('assets/img/brick-wall1.png')">
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/multiplication.png" alt=""><span class="affiche">Tables de multiplication en PHP</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/italian.png" alt=""><span class="affiche">Intégration de maquette sans Bootstrap</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/crud.png" alt=""><span class="affiche">Mise en place d'un système de manipulation de base de données</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/wp.png" alt=""><span class="affiche">Création d'un thème Wordpress</span></div>
             </div>
         </div>
     </section>
@@ -82,10 +84,16 @@ url('assets/img/brick-wall1.png')">
         <div class="container">
             <div class="row mb-5 align-items-center">
                 <div class="col-12 col-md-12">
-                    <h1>Mes compétences</h1>
+                    <h1 class="mb-3">Mes compétences</h1>
                     <div class="skills">
-                        <h2>HTML</h2>
-                        <div class="progress mb-4">
+                    <div class="row">
+                    <img src="assets/img/logos/HTML.png" class="logo mx-auto" alt="HTML">
+                    <img src="assets/img/logos/CSS.png" class="logo mx-auto" alt="CSS">
+                    <img src="assets/img/logos/JS.png" class="logo mx-auto" alt="JS">
+                    <img src="assets/img/logos/Bootstrap.png" class="logo mx-auto" alt="Bootstrap">
+                    <img src="assets/img/logos/VueJS.svg" class="logo mx-auto" alt="VueJS"></div>
+                        <!-- <h2>HTML</h2> -->
+                        <!-- <div class="progress mb-4">
                             <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">70%</div>
                         </div>
                         <h2>CSS</h2>
@@ -103,7 +111,7 @@ url('assets/img/brick-wall1.png')">
                         <h2>Photoshop</h2>
                         <div class="progress mb-4">
                             <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">40%</div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
