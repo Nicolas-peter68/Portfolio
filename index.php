@@ -59,7 +59,7 @@ url('assets/img/brick-wall1.png')">
             <h1>À propos de moi</h1>
             <div class="row align-items-center mb-5">
                 <div class="col-md-5 mb-4">
-                    <p class="mb-4">J'ai commencé par un bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
+                    <p class="mb-4">J'ai commencé par un bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies et le design, j'ai souhaité faire une formation de web designer.</p>
                     <a href="assets/misc/CV_design.pdf" target="_blank">
                         <button type="button" class="btn-neon">
                             <span></span>
@@ -82,6 +82,8 @@ url('assets/img/brick-wall1.png')">
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/ProjetBDD/" target="_blank" rel="noopener noreferrer"> <img class="img-fluid" src="assets/img/crud.png" alt=""></a><span class="affiche">Mise en place d'un système de manipulation de base de données</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/wordpress-first/" target="_blank"><img class="img-fluid" src="assets/img/wp.png" alt=""></a><span class="affiche">Création d'un thème Wordpress</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/cine-code" target="_blank"><img class="img-fluid" src="assets/img/cine-code.jpg" alt=""></a><span class="affiche">Projet de groupe MVC</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://www.nicolas-peter.fr/projets/noel/" target="_blank"><img class="img-fluid" src="assets/img/noel.jpg" alt=""></a><span class="affiche">Carte de vœux de noël</span></div>
+                    <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolas-peter.fr/projets/wordpress-ecolo" target="_blank"><img class="img-fluid" src="assets/img/ecolo.jpg" alt=""></a><span class="affiche">Projet de sensibilisation des utilisateurs aux bonnes pratiques sur internet avec Wordpress</span></div>
             </div>
         </div>
     </section>
@@ -98,26 +100,6 @@ url('assets/img/brick-wall1.png')">
                             <img src="assets/img/logos/Bootstrap.png" class="logo mx-auto mb-3" alt="Bootstrap">
                             <img src="assets/img/logos/VueJS.svg" class="logo mx-auto mb-3" alt="VueJS">
                         </div>
-                        <!-- <h2>HTML</h2> -->
-                        <!-- <div class="progress mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">70%</div>
-                        </div>
-                        <h2>CSS</h2>
-                        <div class="progress mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
-                        </div>
-                        <h2>JavaScript</h2>
-                        <div class="progress mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">50%</div>
-                        </div>
-                        <h2>Bootstrap</h2>
-                        <div class="progress mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
-                        </div>
-                        <h2>Photoshop</h2>
-                        <div class="progress mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">40%</div>
-                        </div> -->
                     </div>
                 </div>
             </div>
