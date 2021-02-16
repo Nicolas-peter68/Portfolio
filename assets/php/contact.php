@@ -1,5 +1,5 @@
 <?php
-$to = 'nicolas.peter67@yahoo.com';
+$to = 'contact@nicolas-peter.fr';
 $objet = $_POST['objet'];
 $message = '<html><head><meta charset="UTF-8"><title>Carte</title></head><body>'.
 '<p>'.$_POST['message'].'</p></body></html>';

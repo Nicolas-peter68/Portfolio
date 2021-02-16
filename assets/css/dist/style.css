@@ -36,6 +36,18 @@ body {
   text-shadow: 0 0 10px #1fb8e7, 0 0 20px #1fb8e7, 0 0 40px #1fb8e7;
 }
 
+.intro ul {
+  list-style: none;
+}
+
+.intro li {
+  display: inline-block;
+}
+
+.intro i {
+  color: 0 0 10px #1fb8e7, 0 0 20px #1fb8e7, 0 0 40px #1fb8e7;
+}
+
 .intro h1 {
   font-size: 75px;
 }
@@ -236,7 +248,8 @@ footer li {
   display: inline-block;
 }
 
-footer i {
+.intro i {
   text-shadow: 0 0 5px #90e0efff, 0 0 25px #90e0efff, 0 0 50px #90e0efff, 0 0 50px #90e0efff;
   color: #90e0efff;
+  font-size: 20px;
 }

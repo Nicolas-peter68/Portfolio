@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="scss/dist/custom.css">
     <link rel="stylesheet" href="assets/css/dist/style.css">
     <link rel="stylesheet" href="assets/css/dist/time-line2.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/0676c44351.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
@@ -48,15 +48,19 @@ url('assets/img/brick-wall1.png')">
         <div class="intro">
             <h1>Nicolas Peter</h1>
             <h2>Web designer</h2>
+            <ul>
+                <li><span class="mr-2"><a href="https://www.linkedin.com/in/nicolas-peter68/" target="_blank"><i class="fab fa-linkedin-in"></i></span></a></li>
+                <li><span class="mr-2"><a href="https://github.com/Nicolas-peter68" target="_blank"><i class="fab fa-github"></i></span></a></li>
+            </ul>
         </div>
     </header>
     <section class="about" id="about">
         <div class="container">
             <h1>À propos de moi</h1>
-            <div class="row align-items-center mb-5">   
+            <div class="row align-items-center mb-5">
                 <div class="col-md-5 mb-4">
                     <p class="mb-4">J'ai commencé par un bac pro électrotechnique, n'ayant pas trouvé mon bonheur dans ce domaine j'ai souhaité me réorienter vers un BTS systèmes numériques option informatique et réseaux, passionné par les nouvelles technologies, j'ai souhaité faire une formation de web designer.</p>
-                    <a href="assets/misc/CV_Nicolas_Peter.pdf" target="_blank">
+                    <a href="assets/misc/CV_design.pdf" target="_blank">
                         <button type="button" class="btn-neon">
                             <span></span>
                             <span></span>
@@ -72,11 +76,12 @@ url('assets/img/brick-wall1.png')">
         <div class="container">
             <h1 class="my-4">Mes projets</h1>
             <div class="row mb-4 h-100">
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/Mark.png" alt="Mark"><span class="affiche mb-4">Intégration de maquette avec Bootstrap</span></div>
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/multiplication.png" alt=""><span class="affiche">Tables de multiplication en PHP</span></div>
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><img class="img-fluid" src="assets/img/italian.png" alt=""><span class="affiche">Intégration de maquette sans Bootstrap</span></div>
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/crud.png" alt=""><span class="affiche">Mise en place d'un système de manipulation de base de données</span></div>
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><img class="img-fluid" src="assets/img/wp.png" alt=""><span class="affiche">Création d'un thème Wordpress</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><a target="_blank" href="https://nicolasp.promo-45.codeur.online/ProjetMark/"><img class="img-fluid" src="assets/img/Mark.png" alt="Mark"></a><span class="affiche mb-4">Intégration de maquette avec Bootstrap</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><a target="_blank" href="https://nicolasp.promo-45.codeur.online/ProjetTablesMultiplication/"><img class="img-fluid" src="assets/img/multiplication.png" alt=""></a><span class="affiche">Tables de multiplication en PHP</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-5"><a target="_blank" href="https://nicolasp.promo-45.codeur.online/ProjetItalianRestaurant/"><img class="img-fluid" src="assets/img/italian.png" alt=""></a><span class="affiche">Intégration de maquette sans Bootstrap</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/ProjetBDD/" target="_blank" rel="noopener noreferrer"> <img class="img-fluid" src="assets/img/crud.png" alt=""></a><span class="affiche">Mise en place d'un système de manipulation de base de données</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/wordpress-first/" target="_blank"><img class="img-fluid" src="assets/img/wp.png" alt=""></a><span class="affiche">Création d'un thème Wordpress</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/cine-code" target="_blank"><img class="img-fluid" src="assets/img/cine-code.jpg" alt=""></a><span class="affiche">Projet de groupe MVC</span></div>
             </div>
         </div>
     </section>
@@ -86,12 +91,13 @@ url('assets/img/brick-wall1.png')">
                 <div class="col-12 col-md-12">
                     <h1 class="mb-3">Mes compétences</h1>
                     <div class="skills">
-                    <div class="row">
-                    <img src="assets/img/logos/HTML.png" class="logo mx-auto" alt="HTML">
-                    <img src="assets/img/logos/CSS.png" class="logo mx-auto" alt="CSS">
-                    <img src="assets/img/logos/JS.png" class="logo mx-auto" alt="JS">
-                    <img src="assets/img/logos/Bootstrap.png" class="logo mx-auto" alt="Bootstrap">
-                    <img src="assets/img/logos/VueJS.svg" class="logo mx-auto" alt="VueJS"></div>
+                        <div class="row">
+                            <img src="assets/img/logos/HTML.png" class="logo mx-auto mb-3" alt="HTML">
+                            <img src="assets/img/logos/CSS.png" class="logo mx-auto mb-3" alt="CSS">
+                            <img src="assets/img/logos/JS.png" class="logo mx-auto mb-3" alt="JS">
+                            <img src="assets/img/logos/Bootstrap.png" class="logo mx-auto mb-3" alt="Bootstrap">
+                            <img src="assets/img/logos/VueJS.svg" class="logo mx-auto mb-3" alt="VueJS">
+                        </div>
                         <!-- <h2>HTML</h2> -->
                         <!-- <div class="progress mb-4">
                             <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">70%</div>
@@ -164,7 +170,7 @@ url('assets/img/brick-wall1.png')">
             </div>
         </div>
     </section>
-    <section class="contact" id="me-contacter">
+    <section class="contact mb-3" id="me-contacter">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center" id="mail-alert">
@@ -215,7 +221,7 @@ url('assets/img/brick-wall1.png')">
                 <div class="col-lg-4 ml-auto">
                     <h3>Mes coordonnées</h3>
                     <ul>
-                        <li class="mb-3"><span class="mt-1 mr-2"><i class="far fa-envelope"></i></span><a href="mailto:nicolas.peter67@yahoo.com">nicolas.peter67@yahoo.com</a></li>
+                        <li class="mb-3"><span class="mt-1 mr-2"><i class="far fa-envelope"></i></span><a href="mailto:contact@nicolas-peter.fr">contact@nicolas-peter.fr</a></li>
                         <li class="mb-3"><span class="mt-1 mr-2"><i class="fas fa-phone"></i></span><a href="tel:+33668999385">+33 6 68 99 93 85</a></li>
                     </ul>
                 </div>
@@ -226,10 +232,7 @@ url('assets/img/brick-wall1.png')">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <ul>
-                        <li><span class="mr-2"><a href="https://www.linkedin.com/in/nicolas-peter68/" target="_blank"><i class="fab fa-linkedin-in"></i></span></a></li>
-                        <li><span class="mr-2"><a href="https://github.com/Nicolas-peter68" target="_blank"><i class="fab fa-github"></i></span></a></li>
-                    </ul>
+
                 </div>
             </div>
         </div>
