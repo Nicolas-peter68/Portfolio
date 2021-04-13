@@ -15,7 +15,6 @@
 
 <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -82,8 +81,9 @@ url('assets/img/brick-wall1.png')">
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/ProjetBDD/" target="_blank" rel="noopener noreferrer"> <img class="img-fluid" src="assets/img/crud.png" alt=""></a><span class="affiche">Mise en place d'un système de manipulation de base de données</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/wordpress-first/" target="_blank"><img class="img-fluid" src="assets/img/wp.png" alt=""></a><span class="affiche">Création d'un thème Wordpress</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolasp.promo-45.codeur.online/cine-code" target="_blank"><img class="img-fluid" src="assets/img/cine-code.jpg" alt=""></a><span class="affiche">Projet de groupe MVC</span></div>
-                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://www.nicolas-peter.fr/projets/noel/" target="_blank"><img class="img-fluid" src="assets/img/noel.jpg" alt=""></a><span class="affiche">Carte de vœux de noël</span></div>
-                    <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolas-peter.fr/projets/wordpress-ecolo" target="_blank"><img class="img-fluid" src="assets/img/ecolo.jpg" alt=""></a><span class="affiche">Projet de sensibilisation des utilisateurs aux bonnes pratiques sur internet avec Wordpress</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://www.nicolas-peter.fr/projets/noel/" target="_blank"><img class="img-fluid" src="assets/img/noel.png" alt=""></a><span class="affiche">Carte de vœux de noël</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolas-peter.fr/projets/wordpress-ecolo" target="_blank"><img class="img-fluid" src="assets/img/ecolo.jpg" alt=""></a><span class="affiche">Projet de sensibilisation des utilisateurs aux bonnes pratiques sur internet avec Wordpress</span></div>
+                <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="http://maze-bank.nicolas-peter.fr/" target="_blank"><img class="img-fluid" src="assets/img/Maze_Bank.png" alt=""></a><span class="affiche">Création d'une interface bacaire pour un serveur GTA RP</span></div>
             </div>
         </div>
     </section>
@@ -219,6 +219,7 @@ url('assets/img/brick-wall1.png')">
             </div>
         </div>
     </footer>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/form.js"></script>
 </body>
 <!--https://preview.colorlib.com/theme/orbit/#contact-section-->
