@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -219,6 +218,7 @@ url('assets/img/brick-wall1.png')">
             </div>
         </div>
     </footer>
+    <script src="assets/js/jquery-3.6.0.slim.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/form.js"></script>
 </body>
