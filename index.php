@@ -83,6 +83,7 @@ url('assets/img/brick-wall1.png')">
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://www.nicolas-peter.fr/projets/noel/" target="_blank"><img class="img-fluid" src="assets/img/noel.png" alt=""></a><span class="affiche">Carte de vœux de noël</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://nicolas-peter.fr/projets/wordpress-ecolo" target="_blank"><img class="img-fluid" src="assets/img/ecolo.jpg" alt=""></a><span class="affiche">Projet de sensibilisation des utilisateurs aux bonnes pratiques sur internet avec Wordpress</span></div>
                 <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="http://maze-bank.nicolas-peter.fr/" target="_blank"><img class="img-fluid" src="assets/img/Maze_Bank.png" alt=""></a><span class="affiche">Création d'une interface bacaire pour un serveur GTA RP</span></div>
+                    <div class="col-md-4 col-12 d-flex justify-content-center bulle mb-4"><a href="https://topcryptos.promo-45.codeur.online/" target="_blank"><img class="img-fluid" src="assets/img/crypto.png" alt=""></a><span class="affiche">Projet de groupe Synfony/VueJS et manipulation API</span></div>
             </div>
         </div>
     </section>
