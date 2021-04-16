@@ -164,15 +164,15 @@ url('assets/img/brick-wall1.png')">
                     <form class="needs-validation" id="formulaire" novalidate>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
-                                <label for="validationCustom02">Nom</label>
-                                <input name="nom" type="text" class="form-control" id="validationCustom02" value="" required>
+                                <label for="validationCustom02">Prénom</label>
+                                <input name="prenom" type="text" class="form-control" id="validationCustom02" value="" required>
                                 <div class="valid-feedback">
                                     C'est bien
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="validationCustom02">Prénom</label>
-                                <input name="prenom" type="text" class="form-control" id="validationCustom02" value="" required>
+                                <label for="validationCustom02">Nom</label>
+                                <input name="nom" type="text" class="form-control" id="validationCustom02" value="" required>
                                 <div class="valid-feedback">
                                     C'est bien
                                 </div>
