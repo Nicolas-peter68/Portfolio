@@ -1,12 +1,12 @@
 <?php
 $to = 'contact@nicolas-peter.fr';
 $objet = $_POST['objet'];
-$message = '<html><head><meta charset="UTF-8"><title>Carte</title></head><body>'.
+$message = '<html><head><meta charset="UTF-8"><title>Contact</title></head><body>'.
 '<p>'.$_POST['message'].'</p></body></html>';
 $headers = 
     'MIME-Version: 1.0'."\r\n".
     'Content-type: text/html; charset=UTF-8'."\r\n".
-    'From: '. $_POST['nom'].'<'. $_POST['email'].'>'."\r\n".
+    'From: '. $_POST['prenom'].' '.$_POST['nom'].'<'. $_POST['email'].'>'."\r\n".
     'Reply-To: '. $_POST['email']."\r\n".
     'X-Mailer: '. 'PHP/' . phpversion()
 ;

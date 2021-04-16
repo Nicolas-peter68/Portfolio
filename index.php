@@ -171,6 +171,13 @@ url('assets/img/brick-wall1.png')">
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">Prénom</label>
+                                <input name="prenom" type="text" class="form-control" id="validationCustom02" value="" required>
+                                <div class="valid-feedback">
+                                    C'est bien
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
                                 <label for="validationCustom02">Sujet</label>
                                 <input name="objet" type="text" class="form-control" id="validationCustom02" value="" required>
                                 <div class="valid-feedback">
