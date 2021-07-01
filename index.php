@@ -115,8 +115,8 @@ url('assets/img/brick-wall1.png')">
                         <li class="timeline-item bg-dark rounded ml-3 p-4">
                             <div class="timeline-arrow"></div>
                             <div>
-                                <h2 class="h2 mb-0">Formation développeur web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2020</span>
-                                <p class="text-small text-white mt-2 font-weight-light">Titre professionel en cours d'acquisition chez Access Code School</p>
+                                <h2 class="h2 mb-0">Formation Designer web</h2><span class="small text-white"><i class="fa fa-clock-o mr-1"></i>2020/2021</span>
+                                <p class="text-small text-white mt-2 font-weight-light">Titre professionel acquis chez Access Code School</p>
                             </div>
                         </li>
                         <li class="timeline-item bg-dark rounded ml-3 p-4">
